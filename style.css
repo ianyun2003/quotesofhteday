@@ -1,0 +1,60 @@
+* {
+    color: white;
+    font-family: "Open Sans", sans-serif;
+}
+
+body {
+    position: relative;
+    background-color: #5885AF;
+}
+
+button {
+    /* REMOVE DEFAULT BUTTON APPEARANCE */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    /* BUTTON DECORATION STARTS HERE */
+    color: white;
+    border: white 1px solid;
+    border-radius: 4px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    cursor: pointer;
+    transition: 0.5s;
+    background-color: transparent;
+    font-size: 1rem;
+    font-weight: 400;
+    /* MARGIN AND PADDING */
+    margin-top: 20px;
+    padding: 0.5rem 1rem;
+}
+
+button:active,
+button:hover,
+button:focus {
+    background: #41729F;
+    outline: 0;
+}
+
+button:disabled {
+    opacity: 0.5;
+}
+
+.main {
+    /* CENTER ALIGN VERTICALLY & HORIZONTALLY */
+    position: absolute;
+    width: 25%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    /* MAIN BOX DECORATION */
+    border: white 1px solid;
+    border-radius: 20px;
+    text-align: center;
+    padding: 50px;
+}
+
+#quote {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    height: 100px;
+}
